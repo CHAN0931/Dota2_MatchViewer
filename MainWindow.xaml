@@ -1,0 +1,15 @@
+﻿<Window x:Class="DotaView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DotaView"
+        mc:Ignorable="d"
+        Title="Dota2 Match History Viewer" Height="460" Width="800">
+    <Grid>
+        <Button x:Name="get_btn" Content="Button" HorizontalAlignment="Left" Margin="400,366,0,0" VerticalAlignment="Top" Height="41" Width="142" Click="get_btn_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="10,10,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" Height="404" TextChanged="textBox_TextChanged" IsReadOnlyCaretVisible="True"/>
+        <TextBox x:Name="matchID_textBox" HorizontalAlignment="Left" Margin="400,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="142" Text="6053027502" TextChanged="matchID_textBox_TextChanged"/>
+
+    </Grid>
+</Window>
